@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ls hh, ll, LIC=Q7GSB-2B629-ZD1K6-DA0LL-6BJKX-SGEUA
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMSTM.DLL V1.65.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TARMSTM.DLL V1.64.0.0
+ 
+<h2>Project:</h2>
+C:\Users\admin\Desktop\UCOSII-SCCTD\USER\UCOSII-3.uvprojx
+Project File Date:  03/12/2020
+
+<h2>Output:</h2>
+Build target 'UCOSII-3'
+compiling main.c...
+..\HARDWARE\Soft\Task\task_manage.h(29): warning:  #1295-D: Deprecated declaration Task3_SweepFre - give arg types
+  void Task3_SweepFre();
+..\HARDWARE\chart\chart.h(19): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(126): warning:  #177-D: variable "err" was declared but never referenced
+        u8 err;             
+main.c(183): warning:  #186-D: pointless comparison of unsigned integer with zero
+                                if(page < 0)
+main.c(349): warning:  #767-D: conversion from pointer to smaller integer
+                startshow = (u8)OSMboxPend(startshow_ECB,10,&err);
+main.c(350): warning:  #767-D: conversion from pointer to smaller integer
+                page = (u8)OSMboxPend(page_ECB,10,&err);
+main.c(279): warning:  #177-D: variable "key_read" was declared but never referenced
+        u8  key_read=0;         
+main.c: 7 warnings, 0 errors
+linking...
+Program Size: Code=76092 RO-data=161548 RW-data=4656 ZI-data=1073744  
+FromELF: creating hex file...
+"..\OBJ\UCOSII-3.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\admin\Desktop\UCOSII-SCCTD\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
